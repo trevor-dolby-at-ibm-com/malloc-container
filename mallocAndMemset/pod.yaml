@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: malloc-and-memset
+  labels:
+    app: mallocAndMemset
+  namespace: cp4i
+spec:
+  containers:
+    - name: malloc-and-memset
+      image: 'tdolby/experimental:mallocAndMemset'
