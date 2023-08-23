@@ -9,3 +9,7 @@ spec:
   containers:
     - name: malloc-and-memset
       image: 'tdolby/experimental:mallocAndMemset'
+      imagePullPolicy: Always
+    - name: malloc-and-memset-two
+      image: 'tdolby/experimental:mallocAndMemset'
+      imagePullPolicy: Always
